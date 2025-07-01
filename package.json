@@ -10,6 +10,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "description": "",
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "babel-loader": "^9.2.1",
@@ -26,22 +27,14 @@
     "stylelint-config-standard": "^21.0.0",
     "stylelint-csstree-validator": "^1.9.0",
     "stylelint-scss": "^3.21.0",
-    "webpack": "^5.99.9",
+    "webpack": "^5.98.0",
     "webpack-cli": "^6.0.1",
     "webpack-dev-server": "^5.2.0"
   },
   "dependencies": {
     "express": "^4.21.2",
-    "form-app":"file:",
+    "form-app": "file:",
+    "pm2": "^6.0.6",
     "serve": "^14.2.4"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/AndresGarcesv/form.git"
-  },
-  "bugs": {
-    "url": "https://github.com/AndresGarcesv/form/issues"
-  },
-  "homepage": "https://github.com/AndresGarcesv/form#readme",
-  "description": ""
+  }
 }
